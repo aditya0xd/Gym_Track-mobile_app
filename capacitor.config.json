@@ -4,9 +4,31 @@
   "webDir": "www",
   "server": {
     "url": "https://gym-track-sigma-ten.vercel.app/",
-    "cleartext": false
+    "cleartext": false,
+    "errorPath": "offline.html"
   },
   "android": {
-    "allowMixedContent": false
+    "allowMixedContent": false,
+    "buildOptions": {
+      "keystorePath": "C:/Users/Adity/OneDrive/Desktop/gymtrack-android/android/app/my-release-key.jks",
+      "keystorePassword": "Aditya@123",
+      "keystoreAlias": "my-key-alias",
+      "keystoreAliasPassword": "Aditya@123",
+      "releaseType": "APK"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "backgroundColor": "#ffffffff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#999999",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
   }
 }
