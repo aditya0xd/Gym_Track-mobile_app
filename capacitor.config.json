@@ -1,0 +1,12 @@
+{
+  "appId": "com.aditya.gymtrack",
+  "appName": "GymTrack",
+  "webDir": "www",
+  "server": {
+    "url": "https://gym-track-sigma-ten.vercel.app/",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}
